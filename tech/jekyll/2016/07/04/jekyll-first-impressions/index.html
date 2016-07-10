@@ -1,0 +1,27 @@
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jekyll: First Impressions</h1>
+    <p class="post-meta"><time datetime="2016-07-04T10:40:42-04:00" itemprop="datePublished">Jul 4, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>As I mentioned a few days ago in my post about [what I’ve already learned][https://medium.com/@kravenoff42/what-ive-already-learned-da6df98cf48#.dyu33ienm] about software so far. I am currently deigning my own personal site. This is where I intend to keep completed project, along with some works in progress, my new blog, and a short description of myself. I’d also like the site to be sort of a playground for tools and methods that I am learning.
+I mentioned that I think that [Jekyll][https://jekyllrb.com] was the likely candidate for building the site, I’d like to unpack that a little today.
+—
+##What is Jekyll?
+Jekyll is a tool for build static sites. What this means is that you won’t be use any bots to serve up a page upon each request. Normally this is considered a useful model because it ensures that you content is always up-to-date. So, if you have a site that is displaying a large data set that is always in flux, you might would to use this more standard method.
+With a static site the pages you view are fixed, every user that views your site with see the same structure, regardless of user group. This can be a problem, but in many cases it wouldn’t ever come up. This is especially true to sites that primarily serve as an archive of information, like a portfolio.
+Now, I’d like to clarify that the term static here, does not refer to the page display, or external data. you can still use APIs to inject dynamic content, and you can still use JavaScript to add behavior to the pages. it just means that the file structure does not change between builds.
+To solve the problem of keeping your info updated without a database, Jekyll rebuilds the site each time a piece of content is saved, or a new file is created. This means that the Jekyll team has also made if very easy to adjust your content from the back end.
+All of your layout info is stored in one folder, your styling in in another, and the content is also separate, this makes is easy to identify where you changes need to be made and makes sure the mistakes don’t necessarily lead to a cascading failure. In fact, if you are smart about how you separate your code you can make sure that the content, layout, styling and behavior can all fail independently with out crashing the whole site. This is called Graceful Degradation, and it a concept I am sure I will get into another time.
+Once you have the code how you want, you run Jekyll from your command line and it builds the HTML, with all the appropriate files and folders. Presto! New Site!
+—
+##Why Jekyll?
+So, why is all of this good for me? Well, the static site format is one that I am most familiar with, this is the way site were built in the 90’s and early 2000’s so I know how to think about the structure. Jekyll also come with language that understands blogs, one of the primary features I am interested in. And probably the best reason, for using it is that is allows me to host my site on GitHub free of charge. All that I need to pay for is my Domain name, and point it to the write spot. Using a static site is also more secure since there is now database to hack.
+That is what I have learned some far, I have only been messing with Jekyll for a few days now, so I with have to make another post in the future with other insights.
+Do you have any points that I missed? Did I misrepresent any of the features of Jekyll? Let me know, and I will make the corrections.</p>
+
+  </div>
+
+</article>
