@@ -1,0 +1,45 @@
+#quote {
+  font-family: 'Lobster', cursive;
+  font-size:36pt;
+}
+
+h1 {
+    font-size:60pt;
+}
+h3 {
+    font-size:30pt;
+}
+
+body{
+  background-color: #2df;
+  font-family: montserrat;
+}
+#disp{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ddfdff;
+}
+#button{
+  margin:10px;
+}
+#tweet{
+  margin:10px;
+}
+.btn, .btn:visited, .btn:focus {
+	background: #ddfdff;
+	border: none;
+  outline: 0;
+	color: #2df;
+	cursor: pointer;
+	font-size: 36px;
+	padding: 10px 15px;
+	transition: background 1s, color 1s;
+}
+
+.btn:hover, .btn:active {
+	background: #2df;
+	color: #fff;
+  border: none;
+  outline: 0;
+
+}

@@ -713,7 +713,7 @@ footer {
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    background-image: url(../img/travitar.jpg);
+    background-image: url(../img/jonpic.jpg);
     height: 200px;
     width: 200px;
     -webkit-box-ordinal-group: 3;
@@ -829,22 +829,22 @@ footer {
 .noscript {
   display: none; }
 
-#proj-1:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-1 {
+:checked ~ .work-belt .work-wrap .work-container noscript #content- {
   display: block; }
 
-#proj-2:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-2 {
+:checked ~ .work-belt .work-wrap .work-container noscript #content- {
   display: block; }
 
-#proj-3:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-3 {
+:checked ~ .work-belt .work-wrap .work-container noscript #content- {
   display: block; }
 
-#proj-4:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-4 {
+:checked ~ .work-belt .work-wrap .work-container noscript #content- {
   display: block; }
 
-#proj-5:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-5 {
+:checked ~ .work-belt .work-wrap .work-container noscript #content- {
   display: block; }
 
-#proj-6:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-6 {
+:checked ~ .work-belt .work-wrap .work-container noscript #content- {
   display: block; }
 
 .return {
@@ -878,7 +878,7 @@ footer {
 
 .thumb-container {
   display: block;
-  max-width: 960px;
+  max-width: 660px;
   margin: 0px auto; }
   .thumb-container:after {
     content: "";
@@ -970,12 +970,11 @@ footer {
       fill: rgba(0, 0, 0, 0.4); }
     .work-container .work-return:hover {
       opacity: 1; }
-
-@media (max-width: 740px) {
-  .work-container .work-return {
+  .work-container .work-container .work-return {
     left: 0px; }
-  .work-container h4 {
-    margin-left: 60px; } }
+  .work-container .work-container h4 {
+    margin-left: 60px; }
+
 .section-blog {
   position: relative;
   text-align: center; }
@@ -993,6 +992,9 @@ footer {
       .section-blog .post-list li .post-link {
         color: white;
         margin: 0px; }
+  .section-blog .rss-subscribe {
+    width: 30px;
+    height: 30px; }
 
 .section-contact {
   text-align: center; }
