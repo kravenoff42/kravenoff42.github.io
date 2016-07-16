@@ -598,7 +598,7 @@ section:nth-child(odd) {
   section:nth-child(odd) h3 {
     color: #737ab2; }
 
-h3, header nav a, header .kicker, footer .lockup .content-wrap a {
+h3, header nav a, header .kicker, footer .lockup .content-wrap a, header.post-header h3 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase; }
@@ -614,6 +614,7 @@ header {
   background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
   padding-bottom: 50px; }
   header .logo {
+    display: none;
     height: 50px;
     width: 50px;
     float: left;
@@ -865,12 +866,6 @@ footer {
   -webkit-transition: all, 800ms;
   -moz-transition: all, 800ms;
   transition: all, 800ms; }
-  .work-belt.slided {
-    -webkit-transform: translate3d(-50%, 0, 0);
-    -moz-transform: translate3d(-50%, 0, 0);
-    -ms-transform: translate3d(-50%, 0, 0);
-    -o-transform: translate3d(-50%, 0, 0);
-    transform: translate3d(-50%, 0, 0); }
 
 .thumb-wrap, .work-wrap {
   width: 50%;
@@ -888,7 +883,7 @@ footer {
     position: relative;
     display: block;
     float: left;
-    width: 25%;
+    width: 50%;
     cursor: pointer; }
     .thumb-container label .thumb-unit {
       display: block;
@@ -992,6 +987,9 @@ footer {
       .section-blog .post-list li .post-link {
         color: white;
         margin: 0px; }
+  .section-blog .blog-link {
+    margin: 0px;
+    padding: 0px; }
   .section-blog .rss-subscribe {
     width: 30px;
     height: 30px; }
@@ -1134,3 +1132,43 @@ form {
   text-align: center; }
   .form-success p {
     font-size: 18px; }
+
+.daily-blog {
+  background: #e5eaee;
+  text-align: center; }
+  .daily-blog .post-list {
+    list-style: none;
+    max-width: 500px;
+    margin: 0px;
+    padding: 0px; }
+    .daily-blog .post-list li {
+      background-color: #d7dbe2;
+      padding: 20px;
+      margin-bottom: 20px; }
+      .daily-blog .post-list li h3 {
+        padding: 0px; }
+      .daily-blog .post-list li .post-link {
+        color: white;
+        margin: 0px; }
+  .daily-blog .rss-subscribe {
+    width: 30px;
+    height: 30px; }
+
+p {
+  font-size: 18px; }
+
+header.post-header h3 {
+  color: #9499c4;
+  text-align: center;
+  padding: 100px 0 30px; }
+
+.post-content {
+  padding: 50px; }
+
+.post-meta {
+  text-align: center;
+  color: white; }
+
+.rss-subscribe {
+  width: 30px;
+  height: 30px; }
