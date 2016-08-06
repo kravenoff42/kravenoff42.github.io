@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jul 2016 00:33:40 -0400</pubDate>
-    <lastBuildDate>Sat, 16 Jul 2016 00:33:40 -0400</lastBuildDate>
+    <link>http://www.joncraven.com/</link>
+    <atom:link href="http://www.joncraven.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 06 Aug 2016 09:05:17 -0400</pubDate>
+    <lastBuildDate>Sat, 06 Aug 2016 09:05:17 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -40,8 +40,8 @@
 &lt;p&gt;Whatever it is you are trying to wrap your head around, and in what ever form is comfortable. Write it down. Even if it only bullet points on a napkin, write it down. And keep writing until the subject is clear to you.&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 Jul 2016 18:45:42 -0400</pubDate>
-        <link>/growth/career/2016/07/08/struggling-with-identity/</link>
-        <guid isPermaLink="true">/growth/career/2016/07/08/struggling-with-identity/</guid>
+        <link>http://www.joncraven.com/growth/career/2016/07/08/struggling-with-identity/</link>
+        <guid isPermaLink="true">http://www.joncraven.com/growth/career/2016/07/08/struggling-with-identity/</guid>
         
         
         <category>growth</category>
@@ -61,8 +61,8 @@
 &lt;p&gt;I think that something I need to be more open to is the possibility of starting from square one on a project, giving the whole project the benefit of what I have already learned.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Jul 2016 11:24:42 -0400</pubDate>
-        <link>/growth/learning/2016/07/06/measure-twice-cut-once/</link>
-        <guid isPermaLink="true">/growth/learning/2016/07/06/measure-twice-cut-once/</guid>
+        <link>http://www.joncraven.com/growth/learning/2016/07/06/measure-twice-cut-once/</link>
+        <guid isPermaLink="true">http://www.joncraven.com/growth/learning/2016/07/06/measure-twice-cut-once/</guid>
         
         
         <category>growth</category>
@@ -86,8 +86,8 @@
 &lt;p&gt;You can’t know that you are doing the &lt;strong&gt;right&lt;/strong&gt; thing, but I think you can know that you can know that you are doing a &lt;strong&gt;worthwhile&lt;/strong&gt; thing. And maybe thats all you need.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jul 2016 09:23:42 -0400</pubDate>
-        <link>/growth/career/2016/07/05/traveling-the-path/</link>
-        <guid isPermaLink="true">/growth/career/2016/07/05/traveling-the-path/</guid>
+        <link>http://www.joncraven.com/growth/career/2016/07/05/traveling-the-path/</link>
+        <guid isPermaLink="true">http://www.joncraven.com/growth/career/2016/07/05/traveling-the-path/</guid>
         
         
         <category>growth</category>
@@ -115,8 +115,8 @@ That is what I have learned some far, I have only been messing with Jekyll for a
 Do you have any points that I missed? Did I misrepresent any of the features of Jekyll? Let me know, and I will make the corrections.&lt;/p&gt;
 </description>
         <pubDate>Mon, 04 Jul 2016 10:40:42 -0400</pubDate>
-        <link>/tech/jekyll/2016/07/04/jekyll-first-impressions/</link>
-        <guid isPermaLink="true">/tech/jekyll/2016/07/04/jekyll-first-impressions/</guid>
+        <link>http://www.joncraven.com/tech/jekyll/2016/07/04/jekyll-first-impressions/</link>
+        <guid isPermaLink="true">http://www.joncraven.com/tech/jekyll/2016/07/04/jekyll-first-impressions/</guid>
         
         
         <category>tech</category>
@@ -148,8 +148,8 @@ Do you have any points that I missed? Did I misrepresent any of the features of 
 &lt;p&gt;So, what do you want?&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Jul 2016 08:43:42 -0400</pubDate>
-        <link>/growth/productivity/2016/07/03/Getting-More-out-of-My-Life/</link>
-        <guid isPermaLink="true">/growth/productivity/2016/07/03/Getting-More-out-of-My-Life/</guid>
+        <link>http://www.joncraven.com/growth/productivity/2016/07/03/Getting-More-out-of-My-Life/</link>
+        <guid isPermaLink="true">http://www.joncraven.com/growth/productivity/2016/07/03/Getting-More-out-of-My-Life/</guid>
         
         
         <category>growth</category>
@@ -176,8 +176,8 @@ Do you have any points that I missed? Did I misrepresent any of the features of 
 
 </description>
         <pubDate>Sat, 02 Jul 2016 09:23:42 -0400</pubDate>
-        <link>/growth/relationships/2016/07/02/being-a-better-listener/</link>
-        <guid isPermaLink="true">/growth/relationships/2016/07/02/being-a-better-listener/</guid>
+        <link>http://www.joncraven.com/growth/relationships/2016/07/02/being-a-better-listener/</link>
+        <guid isPermaLink="true">http://www.joncraven.com/growth/relationships/2016/07/02/being-a-better-listener/</guid>
         
         
         <category>growth</category>
@@ -210,8 +210,8 @@ Do you have any points that I missed? Did I misrepresent any of the features of 
 
 </description>
         <pubDate>Fri, 01 Jul 2016 09:23:42 -0400</pubDate>
-        <link>/tech/learning/2016/07/01/what-ive-already-learned/</link>
-        <guid isPermaLink="true">/tech/learning/2016/07/01/what-ive-already-learned/</guid>
+        <link>http://www.joncraven.com/tech/learning/2016/07/01/what-ive-already-learned/</link>
+        <guid isPermaLink="true">http://www.joncraven.com/tech/learning/2016/07/01/what-ive-already-learned/</guid>
         
         
         <category>tech</category>
@@ -246,8 +246,8 @@ Do you have any points that I missed? Did I misrepresent any of the features of 
 
 </description>
         <pubDate>Thu, 30 Jun 2016 09:23:42 -0400</pubDate>
-        <link>/growth/career/2016/06/30/starting-over/</link>
-        <guid isPermaLink="true">/growth/career/2016/06/30/starting-over/</guid>
+        <link>http://www.joncraven.com/growth/career/2016/06/30/starting-over/</link>
+        <guid isPermaLink="true">http://www.joncraven.com/growth/career/2016/06/30/starting-over/</guid>
         
         
         <category>growth</category>
@@ -274,8 +274,8 @@ Do you have any points that I missed? Did I misrepresent any of the features of 
 
 </description>
         <pubDate>Wed, 29 Jun 2016 07:40:42 -0400</pubDate>
-        <link>/jekyll/update/2016/06/29/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">/jekyll/update/2016/06/29/welcome-to-jekyll/</guid>
+        <link>http://www.joncraven.com/jekyll/update/2016/06/29/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://www.joncraven.com/jekyll/update/2016/06/29/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
