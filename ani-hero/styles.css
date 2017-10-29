@@ -1,0 +1,9 @@
+body {
+  margin-left: 50px;
+  padding:0;
+  overflow: hidden;
+  font-family: 'Montserrat', 'helvetica', sans-serif;
+}
+canvas {
+  margin:auto;
+}
