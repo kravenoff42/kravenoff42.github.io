@@ -29,7 +29,7 @@ function setup() {
   canvas.parent(divHero);
   let r;
   switch(random(
-    [/*'SquareWalker','OrbitCircle','Collidiscope','Bubbles','SpaceFlyer','Rain',*/'ShapeZoom','Ripples']
+    [/*'SquareWalker','Bubbles','SpaceFlyer','Rain','Ripples',*/'OrbitCircle','Collidiscope','ShapeZoom']
   )){
     case 'SquareWalker':
       renderedObjects.push(new SquareWalker());

@@ -1,53 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+  	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="libraries/bootstrap.min.css">
-  <link rel="stylesheet" href="main/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="styles.css">
 
-	<title>Kravenoff's Kollection</title>
+  	<title>ani-hero</title>
 
-	<script src="libraries/p5.js"></script>
-	<script src="libraries/p5.dom.js"></script>
-	<script src="libraries/p5.sound.js"></script>
-  <script src="libraries/jquery.min.js" ></script>
-  <script src="libraries/bootstrap.min.js" ></script>
-  <script src="libraries/tabletop.min.js" ></script>
-	<script src="main/js/main.js"></script>
+  	<script src="../libraries/p5.js"></script>
+  	<script src="../libraries/p5.dom.js"></script>
+  	<script src="../libraries/p5.sound.js"></script>
 
-</head>
-<body>
-  <div class="container-fluid">
-    <div class="row">
-      <h1>>Kravenoff's Kollection</h1>
-    </div>
-    <div class="row">
-        <div class="col-lg-9 col-md-8 col-sm-12">
-          <div class="row">
-            <h3>>completed</h3>
-          </div>
-          <div id="gallery" class="row">
-            Loading...
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12">
-          <div class="row">
-            <h3><small>>inProgress</small></h3>
-          </div>
-          <div class="row">
-            <ul id="inProgress">
+    <script src="classes/OrbitCircle.js"></script>
+    <script src="classes/SquareWalker.js"></script>
+    <script src="classes/Collidiscope.js"></script>
+    <script src="classes/ShapeZoom.js"></script>
+    <script src="classes/Ripples.js"></script>
+    <!-- <script src="classes/Rain.js"></script> -->
 
-            </ul>
-          </div>
-        </div>
+    <script src="Ani-Hero.js"></script>
+
+  </head>
+  <body>
+    <div>
+      <a href="www.joncraven.com">&lt;Kravenoff's Kollection</a>
     </div>
 
-  </div>
-</body>
+    <div>
+      <h1>>ani-hero</h1>
+    </div>
+    <div id="ani-hero">
+
+    </div>
+    <div id="input">
+
+    </div>
+  </body>
 </html>
