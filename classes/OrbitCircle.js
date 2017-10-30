@@ -16,9 +16,12 @@ class OrbitCircle{
     pop();
   }
   update(){
-    let radius = height*0.25;
+    let yRadius = height*0.35;
+    let xRadius = yRadius*2;
+
     this.angle += 0.01;
-    this.pos.x = radius * cos(this.angle);
-    this.pos.y = radius * sin(this.angle);
+    this.pos.x = xRadius * cos(this.angle);
+    this.pos.y = yRadius * sin(this.angle);
+    this.size = map(this.pos.y,-yRadius, yRadius,30,70);
   }
 }

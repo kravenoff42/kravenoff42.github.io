@@ -5,11 +5,13 @@ var renderedObjects = [];
 var colors;
 
 function setup() {
+	textX = -(width);
   colors = {
-    back: color(60,30 ,90),
-    prime: color(240,100,100),
-    dark: color(50,10,50),
-    trim: color(50,200,240),
+    back: color(50,25 ,80),
+    prime: color(190,85,180),
+    dark: color(45,10,50),
+    trim: color(45,170,190),
+		text: color(255,255,255),
     rand: function(){
       switch(random([/*'back',*/'prime','dark','trim'])){
         case 'back':
@@ -20,6 +22,8 @@ function setup() {
           return this.dark;
         case 'trim':
           return this.trim;
+				case 'text':
+          return this.text;
       }
     }
   };
@@ -54,6 +58,7 @@ function setup() {
       renderedObjects.push(new Ripple(0));
 
   }
+	background(colors.back);
 }
 
 function draw() {
@@ -65,5 +70,7 @@ function draw() {
       renderedObjects.slice(i, 1);
     }
   }
-  console.log(renderedObjects.length);
+ // console.log(renderedObjects.length);
+	type();
+	
 }
