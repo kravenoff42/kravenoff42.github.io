@@ -29,7 +29,7 @@ function setup() {
   };
   divHero = select('#ani-hero');
   divInput = select('#input');
-	canvas = createCanvas(windowWidth, windowHeight*0.75);
+	canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent(divHero);
   let r;
   switch(random(
@@ -72,5 +72,7 @@ function draw() {
   }
  // console.log(renderedObjects.length);
 	type();
-	
+	if(steps==12){
+		fadeIn();
+	}
 }
