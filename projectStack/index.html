@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="../libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+	<title>projectStack</title>
+
+	<script src="../libraries/p5.js"></script>
+	<script src="../libraries/p5.dom.js"></script>
+	<script src="../libraries/p5.sound.js"></script>
+  <script src="../libraries/jquery.min.js" ></script>
+  <script src="../libraries/bootstrap.min.js" ></script>
+  <script src="../libraries/tabletop.min.js" ></script>
+	<script src="sketch.js"></script>
+
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <a href="../index.html">&lt;Kravenoff's Kollection</a>
+    </div>
+    <div class="row">
+      <h1>>projectStack</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-10 col-md-8 col-sm-12">
+          <div class="row">
+            <div class="col-lg-3 col-md-2 col-sm-2">
+            </div>
+            <div id="list" class="col-lg-6 col-md-8 col-sm-8 center">
+                Loading...
+                <!-- room for cards -->
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-2">
+            </div>
+          </div>
+          <div class="row center">
+            <a href="#new" class="btn btn-primary" data-toggle="modal" data-target="#mdlAdd" id="lnkSave">
+              <i class="material-icons">add</i>
+            </a>
+            <br/>
+            <a href="https://docs.google.com/spreadsheets/d/1M-jY0VpUFAd7wHvhmSwAqWvgc9iWdtcHwqkg0awjsWg/edit">View Sheet</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12">
+          <div class="row">
+            <h3><small>>toDo</small></h3>
+          </div>
+          <div class="row">
+            <ul id="todoList">
+
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+
+        </div>
+    </div>
+
+    <div class="modal" id="mdlAdd">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7rPu0v-ADDxpOlumPwpIHRFo0FFLbjMgyczK6lw4AcHk2ZQ/viewform?embedded=true&usp=pp_url&entry.109489837&entry.871675018&entry.538395537&entry.1657010212=FALSE&entry.1261068998=FALSE" >Loading...</iframe>
+        </div>
+        <div class="modal-footer">
+          <!--data-dismiss="modal"-->
+          <button type="button" class="btn btn-default"  onClick="window.location.reload()">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
