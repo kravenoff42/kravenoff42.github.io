@@ -40,24 +40,24 @@ Recent Projects
 
 [WhatsMyWeather](https://github.com/kravenoff42/WhatsMyWeather)
 
-===
+---
 
 Education
 ---
 
-#####New England Institute of Technology
-BS Software Engineering
-2016-2018
+##### New England Institute of Technology
+AS Software Engineering
+2016-2017
 
-#####Rhode Island College
+##### Rhode Island College
 BFA Sculpture
 2004-2009
 
-===
+---
 
 Work Experience
 ---
-####Decor Craft Inc		
+#### Decor Craft Inc		
 **_Website Manager_**`11/2015-03/2016`
 - Maintain correct inventory for retail sales
 - Develop new revenue streams for retail division
@@ -73,7 +73,7 @@ Work Experience
 - Managed acquisition and organization of Production samples
 - Communicated the specifications and product details to manufacturers and suppliers
 
-####Teespring		
+#### Teespring		
 **_Design Support Agent_**`10/2014-8/2015`
 - Assisted Customers with the navigation and use of Teespring.com
 - Altered images to comply with silk-screen standards
