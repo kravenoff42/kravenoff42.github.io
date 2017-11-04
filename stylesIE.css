@@ -1,0 +1,15 @@
+/* .hidden{
+  display: none;
+} */
+.ie{
+  background-color: rgb(50,25 ,80);
+  color: #fff;
+  font-family: 'Courier New', sans-serif;
+  font-weight: bold;
+  padding-left: 40%;
+  padding-top: 20%;
+  height: 99vh;
+}
+a{
+  text-decoration: none;
+}

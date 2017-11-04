@@ -39,7 +39,9 @@ function setup() {
       renderedObjects.push(new SquareWalker());
       break;
     case 'OrbitCircle':
-      renderedObjects.push(new OrbitCircle());
+      for(let i = 1; i<=8;i++){
+				renderedObjects.push(new OrbitCircle(QUARTER_PI*i));
+			}
       break;
     case 'Collidiscope':
       r = floor(random(3,6));

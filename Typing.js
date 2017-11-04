@@ -19,6 +19,7 @@ function fadeIn(){
     translate(width/2,height/2);
     textAlign(CENTER);
     textSize(textS/2);
+    textStyle(BOLD);
     textFont('Courier New');
     text("<enter>",0,70);
   pop();
@@ -39,7 +40,8 @@ function type(){
       }
       textAlign(LEFT, TOP);
       textSize(textS);
-  textFont('Courier New');
+      textStyle(BOLD);
+      textFont('Courier New');
       text(txt.slice(0,steps),textX,textY);
     pop();
   if(txt[steps]=='.'){
@@ -53,7 +55,8 @@ function type(){
     push();
       textAlign(LEFT, BOTTOM);
       textSize(textS*0.75);
-  textFont('Courier New');
+      textStyle(BOLD);
+      textFont('Courier New');
       text(list,textX,textY+20);
     pop();
   if(steps<txt.length && frameCount%7===0){steps++;}

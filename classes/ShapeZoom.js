@@ -1,4 +1,4 @@
-class ShapeZoom {
+class ShapeZoom{
   constructor(layers,sym,spin,rotation) {
     this.corners = floor(random(3,13));
     this.radius = 1;
