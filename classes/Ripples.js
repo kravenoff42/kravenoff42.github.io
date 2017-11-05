@@ -1,34 +1,37 @@
-class Ripple {
-  constructor(index) {
-    let x = random(width);
-    let y = random(height);
-    this.index = index;
-    this.pos = createVector(x,y);
-    this.radius = 1;
-    this.stroke = colors.rand();
+function Ripple(){
+  let x = random(width);
+  let y = random(height);
+  this.pos = createVector(x,y);
+  this.radius = random(1,3);
+  this.stroke = colors.rand();
+  this.time = floor(random(20,40));
+  this.opacity = 255;
+}
+Ripple.prototype.show = function(){
+  push();
+    noFill();
+    let r = red(this.stroke);
+    let g = green(this.stroke);
+    let b = blue(this.stroke);
+    let a = this.opacity;
+    let c = color(r,g,b,a);
+    stroke(c);
+    strokeWeight(2);
+    ellipse(this.pos.x,this.pos.y,this.radius*2,this.radius*2);
+  pop();
+}
+Ripple.prototype.update = function(){
+  this.radius = this.radius * 1.05;
+  if(this.radius>width*0.15 && this.opacity>0){
+    this.opacity = this.opacity - 15;
   }
-  show(){
-    push();
-      noFill();
-      stroke(this.stroke);
-      strokeWeight(2);
-      ellipse(this.pos.x,this.pos.y,this.radius*2,this.radius*2);
-    pop();
+  if(frameCount%30===0){ return "new";};
+  if(this.radius>width*0.5){
+    return true;
+  }else{
+    return false;
   }
-  update(){
-    let i = renderedObjects.length;
-    let time = floor(random(30,60));
-    this.radius = (this.radius * 1.025)%width/2;
-    if(frameCount%time==0){
-      renderedObjects.push(new Ripple(i));
-    }
-    if(i>20){
-      return true;
-    }else{
-      return false;
-    }
-    // if(random()<0.005 && i<20){
-    //   renderedObjects.push(new Ripple(i));
-    // }
-  }
+}
+Ripple.prototype.newObj = function(){
+  	renderedObjects.push(new Ripple(renderedObjects.length));
 }

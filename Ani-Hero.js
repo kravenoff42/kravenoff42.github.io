@@ -2,6 +2,7 @@ var divHero;
 var canvas;
 var divInput;
 var renderedObjects = [];
+var objMax = 1;
 var colors;
 
 function setup() {
@@ -30,47 +31,63 @@ function setup() {
   divHero = select('#ani-hero');
   divInput = select('#input');
 	canvas = createCanvas(windowWidth, windowHeight);
+	divHero.html = "";
   canvas.parent(divHero);
-  let r;
   switch(random(
-    [/*'SquareWalker','Bubbles','SpaceFlyer','Rain','Ripples',*/'OrbitCircle','Collidiscope','ShapeZoom']
+    [/*'SpaceFlyer','Rain','Ripples',*/'Bubbles'/*,'OrbitCircle','Collidiscope','ShapeZoom','SquareWalker'*/]
   )){
     case 'SquareWalker':
-      renderedObjects.push(new SquareWalker());
+      objMax = floor(random(3,6));
+      for(let i = 0; i<objMax;i++){
+        renderedObjects.push(new SquareWalker());
+      }
       break;
     case 'OrbitCircle':
-      for(let i = 1; i<=8;i++){
+			objMax = 8;
+      for(let i = 1; i<=objMax;i++){
 				renderedObjects.push(new OrbitCircle(QUARTER_PI*i));
 			}
       break;
     case 'Collidiscope':
-      r = floor(random(3,6));
-      for(let i = 0; i<r;i++){
+      objMax = floor(random(3,6));
+      for(let i = 0; i<objMax;i++){
         renderedObjects.push(new Collidiscope());
       }
       break;
     case 'ShapeZoom':
-      r = 3; //floor(random(3,6));
-      for(let i = 0; i<r;i++){
+      objMax = 3; //floor(random(3,6));
+      for(let i = 0; i<objMax;i++){
         renderedObjects.push(new ShapeZoom());
       }
       break;
     case 'Ripples':
-      r = 5;
-      renderedObjects.push(new Ripple(0));
-
+			console.log('Ripples');
+      objMax = floor(random(5,8));
+      renderedObjects.push(new Ripple());
+			break;
+    case 'Bubbles':
+			console.log('Bubbles');
+      objMax = 30; //floor(random(5,8));
+      renderedObjects.push(new Bubble());
+			break;
   }
 	background(colors.back);
 }
 
 function draw() {
   background(colors.back);
+	for(let i = renderedObjects.length-1;i>=0;i--){
+    renderedObjects[i].show();
+	}
   for(let i = renderedObjects.length-1;i>=0;i--){
     renderedObjects[i].show();
     let stail = renderedObjects[i].update();
-    if (stail){
-      renderedObjects.slice(i, 1);
-    }
+    if (stail===true){
+      renderedObjects.splice(i, 1);
+    }else if(stail=="new" && renderedObjects.length < objMax){
+			renderedObjects[i].newObj();
+			break;
+		}
   }
  // console.log(renderedObjects.length);
 	type();

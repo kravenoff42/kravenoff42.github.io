@@ -1,55 +1,55 @@
-class SquareWalker {
-  constructor(pos) {
-    this.size = 50;
-    this.cols = floor(width/this.size);
-    this.rows = floor(height/this.size);
-    let w = this.cols*this.size;
-    let h = this.rows*this.size;
-    this.pos = pos || createVector(floor(w/2),floor(h/2));
+function SquareWalker(pos){
+  this.size = 50;
+  this.cols = floor(width/this.size);
+  this.rows = floor(height/this.size);
+  let w = this.cols*this.size;
+  let h = this.rows*this.size;
+  this.pos = pos || createVector(floor(w/2),floor(h/2));
+}
 
-  }
+SquareWalker.prototype.show = function(){
+  push();
+    fill(colors.prime);
+    noStroke();
+    rect(this.pos.x,this.pos.y,this.size,this.size);
+  pop();
+}
 
-  show(){
-    push();
-      fill(colors.prime);
-      noStroke();
-      rect(this.pos.x,this.pos.y,this.size,this.size);
-    pop();
+SquareWalker.prototype.update = function(){
+  if(frameCount%10==0){
+    switch(random(['U','D','L','R'])){
+      case 'U':
+        this.pos.y -= this.size;
+        break;
+      case 'D':
+        this.pos.y += this.size;
+        break;
+      case 'L':
+        this.pos.x -= this.size;
+        break;
+      case 'R':
+        this.pos.x += this.size;
+        break;
+    }
+    this.edges();
   }
-
-  update(){
-    if(frameCount%10==0){
-      switch(random(['U','D','L','R'])){
-        case 'U':
-          this.pos.y -= this.size;
-          break;
-        case 'D':
-          this.pos.y += this.size;
-          break;
-        case 'L':
-          this.pos.x -= this.size;
-          break;
-        case 'R':
-          this.pos.x += this.size;
-          break;
-      }
-      this.edges();
-    }
+}
+SquareWalker.prototype.edges = function(){
+  let w = this.cols*this.size;
+  let h = this.rows*this.size;
+  if(this.pos.x>w){
+    this.pos.x=0;
   }
-  edges(){
-    let w = this.cols*this.size;
-    let h = this.rows*this.size;
-    if(this.pos.x>w){
-      this.pos.x=0;
-    }
-    if(this.pos.x<0){
-      this.pos.x = w;
-    }
-    if(this.pos.y>h){
-      this.pos.y=0;
-    }
-    if(this.pos.y<0){
-      this.pos.y = h;
-    }
+  if(this.pos.x<0){
+    this.pos.x = w;
   }
+  if(this.pos.y>h){
+    this.pos.y=0;
+  }
+  if(this.pos.y<0){
+    this.pos.y = h;
+  }
+}
+SquareWalker.prototype.newObj = function(){
+  	renderedObjects.push(new SquareWalker(renderedObjects.length));
 }
