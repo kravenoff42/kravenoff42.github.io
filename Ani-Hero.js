@@ -34,7 +34,7 @@ function setup() {
 	divHero.html = "";
   canvas.parent(divHero);
   switch(random(
-    [/*'SpaceFlyer','Rain','Ripples',*/'Bubbles'/*,'OrbitCircle','Collidiscope','ShapeZoom','SquareWalker'*/]
+    [/*'SpaceFlyer','Rain','SquareWalker',*/'Ripples','Bubbles','OrbitCircle','Collidiscope','ShapeZoom']
   )){
     case 'SquareWalker':
       objMax = floor(random(3,6));
