@@ -7,7 +7,10 @@ var colors;
 
 function setup() {
 	textX = -(width);
-	if(windowWidth<windowHeight){textS/2}
+	if(windowWidth<windowHeight){
+	  textS/2
+	  //textX = -2*width;
+	}
   colors = {
     back: color(50,25 ,80),
     prime: color(190,85,180),

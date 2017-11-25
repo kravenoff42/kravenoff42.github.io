@@ -1,6 +1,6 @@
 /********intro animation********/
 var lines = ['>designer ', '>developer ', '>coder ', '>jon craven'];
-var textS = 40;
+var textS = 50;
 var textX = 0;
 var textY = 0;
 var steps = 0;
