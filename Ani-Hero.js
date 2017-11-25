@@ -6,7 +6,7 @@ var objMax = 1;
 var colors;
 
 function setup() {
-	textX = -(width);
+	textX = -1.5*width;//-(width);
 	if(windowWidth<windowHeight){
 	  textS/2
 	  //textX = -2*width;
