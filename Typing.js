@@ -40,6 +40,7 @@ function type(){
       }
       textAlign(LEFT, TOP);
       textSize(textS);
+      
       textStyle(BOLD);
       textFont('Courier New');
       text(txt.slice(0,steps),textX,textY);
