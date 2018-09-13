@@ -77,6 +77,9 @@ function setup() {
   }
 	background(colors.back);
 }
+function mousePressed(){
+	if(mouseX>0&&mouseX<width&&mouseY>0&&mouseY<height)location.replace("https://www.joncraven.com/portfolio");
+}
 
 function draw() {
   background(colors.back);
