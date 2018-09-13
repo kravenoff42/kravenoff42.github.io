@@ -78,7 +78,13 @@ function setup() {
 	background(colors.back);
 }
 function mouseClicked(){
-	if(mouseX>0&&mouseX<width&&mouseY>0&&mouseY<height)location.replace("https://www.joncraven.com/portfolio");
+  if(mouseX > 0 &&
+     mouseX < width &&
+     mouseY > 0 && 
+     mouseY < height){
+	  console.log('clicked!');
+       location.href = 'https://www.joncraven.com/portfolio';
+  }
 }
 
 function draw() {
