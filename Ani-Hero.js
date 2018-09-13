@@ -83,7 +83,7 @@ function mouseClicked(){
      mouseY > 0 && 
      mouseY < height){
 	  console.log('clicked!');
-       location.href = 'https://www.joncraven.com/portfolio';
+       window.location.href = 'https://www.joncraven.com/portfolio';
   }
 }
 
