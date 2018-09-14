@@ -1,31 +1,31 @@
 Jonathan Craven
 ===============
 
-#### Illustrator | Developer | Designer
->I am a highly motivated and technically minded designer. I have ample experience with self-directed skill acquisition and excellent customer service skills.
+#### Developer | Designer | Software Engineer
 
-> This is a collection of projects that I have been working on Since 2016. If you are interested in seeing some of my more recent work try checking out the inProgress section,
+>My drive to learn has taken me down many avenues. In every challenge that I face I always bring a positive perspective, a kind attitude, and an open mind. I always strive to master the tools I use and endeavor to help my peers do the same. Now I want to find a home; a place that needs my talents where I can make a difference.
 
-Technical Skills                         |         | Professional Skills
+Technical Skills                    |         | Professional Skills
 ---|---|---
-HTML / CSS                          | 5 years | Able to quickly learn and apply new technologies
-JavaScript / jQuery / DOM Scipting  | 1 year  | Able to instruct others (over 300hrs of Tutoring)
-SQL / MySQL / PHP                   | 1 year  | Project management
-Illustrator / Photoshop / InDesign  | 6 years | Giving presentations and demonstrations
-C++ / C#                            | 1 year  | Giving advice, insight, and encouragement
-Ruby                                | 1 year  | Anticipating problems and the needs of others
-Microsoft Office                   	| >9 years| Creative writing
-Vectorization		                    | 3 years | Active problem solving
-Wireframes / Sketching              | 4 years | Working well under stress
-
+HTML / Pug                          | 5 years | Software debugging
+CSS / Sass                          | 2 year  | Graphics editing
+JavaScript / jQuery                 | 3 year  | Proactive problem solver
+Bootstrap                           | 2 year  | Quickly learn & apply new skills
+C++ / C#                            | 2 year  | Well organized and detail oriented
+Illustrator / Photoshop / InDesign  | 6 years | Open to constructive criticism
+ASP.NET / .NET Core                 | 1 year  | Experienced Tutor (Over 300hrs)
+P5.js / Processing                  | 2 years | Excellent communicator
+React.js          		              | 1 years | Designing Business logic
+Node.js / PHP                       | 2 years | Software documentation
+SQL / MySQL                         | 2 years | Successful in fast paced environments and meets deadlines
+Wireframes                          | 2 years | Level headed under stress
+Prototyping                         | 1 years | Always punctual
 
 Recent Projects
 ---
 
 [View All Repos](https://github.com/kravenoff42)
-
 [View My Portfolio](https://www.joncraven.com/portfolio)
-
 
 ---
 
@@ -44,26 +44,30 @@ BFA Sculpture
 
 Work Experience
 ---
-#### Decor Craft Inc		
-**_Website Manager_**`11/2015-03/2016`
-- Maintain correct inventory for retail sales
-- Develop new revenue streams for retail division
-- Manage with Web Development and the Database Team
-- Create and implement marketing campaigns
-- Work with developers to improve user experience
-- Coordinate with Sales and Fulfillment to ensure customer satisfaction
 
-**_Product Development Assistant_**`8/2015-11/2015`
-- Developed new products and pricing
-- Assisted with generating specifications and mock-ups
-- Coordinated the product development timeline with the timelines of other departments
-- Managed acquisition and organization of Production samples
-- Communicated the specifications and product details to manufacturers and suppliers
+#### Embrace Home Loans
+**_Application Developer_**`05/2018-07/2018`
+-	Worked on multiple software development projects using the .NET framework
+-	Ensured software standards followed company directives and provided technical support during testing and deployment of applications
+-	Created technical documents to describe the implementation of specifications
+-	Worked on projects including web UI, win UI, and controller design and development, and SOA design and development.
+-	Worked with business system analysts, and various end-users to thoroughly define business requirements and test software
+-	Designed, coded and tested components to make systems that are cost effective, scalable, high performance, and reusable
 
-#### Teespring		
-**_Design Support Agent_**`10/2014-8/2015`
-- Assisted Customers with the navigation and use of Teespring.com
-- Altered images to comply with silk-screen standards
-- Manages customer expectations for print times and quality
-- Explained silk-screen printing to printing to customers and co-workers
-- Assisted the Production Team with final corrections, and work overflow
+#### Cox Communications Inc
+**_Technical Support Rep_**`01/2017-05/2018`
+-	Provided expert level troubleshooting on Telephone, Internet, and Video Services.
+-	Assisted customers with online security and backup Services.
+-	Investigated both software and hardware level problems, using creative problem solving and critical thinking.
+-	Wrote troubleshooting documentation for many products for future use.
+-	Assisted with the launch and maintenance of customer websites.
+-	Consulted with customers on proper network configuration, and maintenance.
+-	Exercised High level of resourcefulness, in high pressure situations.
+
+#### Décor Craft Inc
+**_Website Manager_**`11/2015-04/2016`
+-	Facilitated the launch of DCI’s new retail website.
+-	Consolidated the web hosting environments.
+-	Helped design and create new training tools.
+-	Documented technical structure and function of key infrastructures. (ie. Phones, Servers, Retail Process, On-site Inventory)
+-	Learned how to organize a project and meet deadlines.
