@@ -96,6 +96,15 @@ function mouseClicked(){
   }
 }
 
+function touchEnded(){
+  if(mouseX > 0 &&
+    mouseX < width &&
+    mouseY > 0 && 
+    mouseY < height){
+      window.location.href = 'https://www.joncraven.com/portfolio';
+  }
+}
+
 function draw() {
   background(colors.back);
   for(let i = renderedObjects.length-1; i>=0 ;i--){
