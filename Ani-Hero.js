@@ -4,9 +4,14 @@ var divInput;
 var renderedObjects = [];
 var objMax = 1;
 var colors;
+var charRef, charW, charH;
 //lines, textS, textX, textY, steps, list, txt, opacity are decalred in Typing.js
 
 function setup() {
+  charRef = select("#charRef");
+  console.log(charRef);
+  charW = charRef.width;
+  console.log(charW);
   textX = -1.5*width;
   if(windowWidth<windowHeight){
     textS/2
