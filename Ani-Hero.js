@@ -4,21 +4,24 @@ var divInput;
 var renderedObjects = [];
 var objMax = 1;
 var colors;
-var charRef, charW, charH;
+var charRef, charW, charH, totalW, charRatio;
 //lines, textS, textX, textY, steps, list, txt, opacity are decalred in Typing.js
 
 function setup() {
-  console.log("charRef");
-  
-  charRef = select("#charRef");
-  console.log(charRef);
-  charW = charRef.width;
-  console.log(charW);
-  textX = -1.5*width;
+  if(windowWidth<textS){
+    textS = windowWidth;
+  }
   if(windowWidth<windowHeight){
     textS/2
-    //textX = -2*width;
   }
+
+  charRef = select("#charRef");
+  charRatio = charRef.width / charRef.height;
+  charW = textS * charRatio;
+  charH = textS;
+  totalW = ((lines[lines.length-1].length)+1)*charW;
+  textX = (width/2)-(totalW/2);
+
   colors = {
     back: color(50,25 ,80),
     prime: color(190,85,180),
