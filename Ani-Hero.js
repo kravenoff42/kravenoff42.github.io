@@ -8,6 +8,8 @@ var charRef, charW, charH;
 //lines, textS, textX, textY, steps, list, txt, opacity are decalred in Typing.js
 
 function setup() {
+  console.log("charRef");
+  
   charRef = select("#charRef");
   console.log(charRef);
   charW = charRef.width;
