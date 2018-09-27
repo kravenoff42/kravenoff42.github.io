@@ -46,7 +46,7 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   divHero.html = "";
   canvas.parent(divHero);
-  canvas.mouseClicked(redirect);
+//   canvas.mouseClicked(redirect);
   switch(random(
       [/*'SpaceFlyer','Rain','SquareWalker',*/'Ripples','Bubbles','OrbitCircle','Collidiscope','ShapeZoom']
     )){
@@ -88,9 +88,9 @@ function setup() {
   background(colors.back);
 }
 
-function redirect(){
-  window.location.href = 'https://www.joncraven.com/portfolio';
-}
+// function redirect(){
+//   window.location.href = 'https://www.joncraven.com/portfolio';
+// }
 
 function draw() {
   background(colors.back);
