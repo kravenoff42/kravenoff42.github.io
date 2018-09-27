@@ -21,7 +21,7 @@ function fadeIn(){
     textSize(textS/2);
     textStyle(BOLD);
     textFont('Courier New');
-    text("<enter>",0,70);
+    text("<click here>",0,70);
   pop();
   if(opacity<255 && frameCount%3===0){opacity+=10;}
 }
