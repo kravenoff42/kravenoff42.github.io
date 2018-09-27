@@ -20,7 +20,7 @@ function setup() {
   charW = textS * charRatio;
   charH = textS;
   totalW = ((lines[lines.length-1].length)+1)*charW;
-  textX = (width/2)-(totalW/2);
+  textX = -(totalW/2);
 
   colors = {
     back: color(50,25 ,80),
