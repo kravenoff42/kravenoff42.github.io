@@ -60,6 +60,6 @@ function type(){
       textFont('Courier New');
       text(list,textX,textY+20);
     pop();
-  if(steps<txt.length && frameCount%7===0){steps++;}
+  if(steps<txt.length && frameCount%8===0){steps++;}
   pop();
 }
