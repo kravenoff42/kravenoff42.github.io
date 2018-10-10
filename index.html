@@ -51,6 +51,20 @@
     <a id="link" href="https://www.joncraven.com/portfolio"></a>
   </body>
   <script>
-    document.getElementByID("link").addEventListener('click', function{window.location.replace('joncraven.com/portfolio');});
+    window.onload(
+      document.getElementByID("link").addEventListener('click', function{
+                                                       window.location.replace('joncraven.com/portfolio');
+      });
+      var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+      if (window.location.hash && isChrome) {
+        setTimeout(function () {
+          var hash = window.location.hash;
+          window.location.hash = "";
+          window.location.hash = hash;
+        }, 300);
+      }
+    });
+
+    );
   </script>
 </html>
