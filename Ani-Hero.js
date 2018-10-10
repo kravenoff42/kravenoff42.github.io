@@ -6,7 +6,7 @@ var objMax = 1;
 var colors;
 var charRef, charW, charH, totalW, charRatio;
 //lines, textS, textX, textY, steps, list, txt, opacity are decalred in Typing.js
-
+window.addEventListener("touchstart", func, {passive: false} );
 function setup() {
   if(windowWidth<textS){
     textS = windowWidth;
