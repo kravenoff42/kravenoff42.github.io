@@ -51,8 +51,7 @@
     <a id="link" href="https://www.joncraven.com/portfolio"></a>
   </body>
   <script>
-    window.onload(
-      
+    window.onload = function() {
       var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 //       if (window.location.hash && isChrome) {
       if (isChrome) {
@@ -68,6 +67,6 @@
       }
     });
 
-    );
+    };
   </script>
 </html>
