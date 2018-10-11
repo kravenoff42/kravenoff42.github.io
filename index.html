@@ -48,12 +48,12 @@
     <a id="link" href="https://www.joncraven.com/portfolio"></a>
   </body>
   <script type="text/javascript">
-    window.onload = function() {
-      let anchor = document.getElementByID("link")
+    window.onload = ()=> {
+      let anchor = document.getElementByID("link");
       anchor.addEventListener('touchstart', 
         function{
           window.location.href = anchor.href;
       });
-    };
+    }
   </script>
 </html>
