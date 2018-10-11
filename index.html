@@ -52,16 +52,19 @@
   </body>
   <script>
     window.onload(
-      document.getElementByID("link").addEventListener('click', function{
-                                                       window.location.replace('joncraven.com/portfolio');
-      });
+      
       var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-      if (window.location.hash && isChrome) {
-        setTimeout(function () {
-          var hash = window.location.hash;
-          window.location.hash = "";
-          window.location.hash = hash;
-        }, 300);
+//       if (window.location.hash && isChrome) {
+      if (isChrome) {
+        document.getElementByID("link").addEventListener('touchstart', 
+          function{
+            window.location.replace('www.joncraven.com/portfolio');
+        });
+//         setTimeout(function () {
+//           var hash = window.location.hash;
+//           window.location.hash = "";
+//           window.location.hash = hash;
+//         }, 300);
       }
     });
 
