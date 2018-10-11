@@ -13,7 +13,7 @@ function setup() {
   if(windowWidth<windowHeight){
     textS/2
   }
-  let anchor = document.getElementByID("link");
+  let anchor = document.getElementById("link");
   anchor.addEventListener("touchstart", ()=>{window.location.href = anchor.href});
   charRef = select("#charRef");
   charRatio = charRef.width / charRef.height;
