@@ -8,23 +8,24 @@ Jonathan Craven
 Technical Skills                    |         | Professional Skills
 ---|---|---
 HTML / Pug                          | 5 years | Software debugging
-CSS / Sass                          | 2 year  | Graphics editing
-JavaScript / jQuery                 | 3 year  | Proactive problem solver
-Bootstrap                           | 2 year  | Quickly learn & apply new skills
-C++ / C#                            | 2 year  | Well organized and detail oriented
+CSS / Sass                          | 2 years | Graphics editing
+JavaScript / jQuery                 | 3 years | Proactive problem solver
+Bootstrap                           | 2 years | Quickly learn & apply new skills
+C++ / C#                            | 2 years | Well organized and detail oriented
 Illustrator / Photoshop / InDesign  | 6 years | Open to constructive criticism
 ASP.NET / .NET Core                 | 1 year  | Experienced Tutor (Over 300hrs)
 P5.js / Processing                  | 2 years | Excellent communicator
-React.js          		              | 1 years | Designing Business logic
+React.js          		              | 1 year  | Designing Business logic
 Node.js / PHP                       | 2 years | Software documentation
 SQL / MySQL                         | 2 years | Successful in fast paced environments and meets deadlines
 Wireframes                          | 2 years | Level headed under stress
-Prototyping                         | 1 years | Always punctual
+Prototyping                         | 1 year  | Always punctual
 
 Recent Projects
 ---
 
 [View All Repos](https://github.com/kravenoff42)
+|
 [View My Portfolio](https://www.joncraven.com/portfolio)
 
 ---
