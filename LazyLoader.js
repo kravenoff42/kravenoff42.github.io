@@ -1,0 +1,15 @@
+let animation;
+let aniList = [/*'SpaceFlyer','Rain','SquareWalker',*/'Ripples','Bubbles','OrbitCircle','Collidiscope','ShapeZoom'];
+animation = aniList[Math.floor(Math.random()*aniList.length)];
+script = document.createElement('script');
+script.type = "text/javascript";
+script.src = "classes/"+animation+".js";
+document.body.appendChild(script);
+script = document.createElement('script');
+script.type = "text/javascript";
+script.src = "Typing.js";
+document.body.appendChild(script);
+script = document.createElement('script');
+script.type = "text/javascript";
+script.src = "Ani-Hero.js";
+document.body.appendChild(script);

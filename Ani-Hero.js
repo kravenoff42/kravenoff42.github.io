@@ -5,7 +5,9 @@ var renderedObjects = [];
 var objMax = 1;
 var colors;
 var charRef, charW, charH, totalW, charRatio;
+var script;
 //lines, textS, textX, textY, steps, list, txt, opacity are decalred in Typing.js
+
 function setup() {
   if(windowWidth<textS){
     textS = windowWidth;
@@ -15,6 +17,9 @@ function setup() {
   }
   let anchor = document.getElementById("link");
   anchor.addEventListener("touchstart", ()=>{window.location.href = anchor.href});
+
+
+
   charRef = select("#charRef");
   charRatio = charRef.width / charRef.height;
   charW = textS * charRatio;
@@ -47,9 +52,8 @@ function setup() {
   divHero.html = "";
   canvas.parent(divHero);
 //   canvas.mouseClicked(redirect);
-  switch(random(
-      [/*'SpaceFlyer','Rain','SquareWalker',*/'Ripples','Bubbles','OrbitCircle','Collidiscope','ShapeZoom']
-    )){
+
+  switch(animation){
     case 'SquareWalker':
       objMax = floor(random(3,6));
       for(let i = 0; i<objMax;i++){
