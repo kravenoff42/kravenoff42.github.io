@@ -28,11 +28,13 @@ function setup() {
   textX = -(totalW/2);
 
   colors = {
-    back: color(50,25 ,80),
-    prime: color(190,85,180),
-    dark: color(45,10,50),
-    trim: color(45,170,190),
-    text: color(255,255,255),
+    back: color(222, 252, 253),
+    prime: color(29, 196, 202),
+    dark: color(6, 41, 42),
+    second: color(246, 29, 127),
+    third: color(4, 255, 58),
+    trim: color(14, 149, 143),
+    text: color(0, 0, 0),
     rand: function(){
     switch(random(['prime','dark','trim'])){
       case 'prime':
